@@ -1,4 +1,3 @@
-
 public class FoodItem extends Consumable {
 
     private String nutrients;

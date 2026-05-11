@@ -1,0 +1,34 @@
+// Source code is decompiled from a .class file using FernFlower decompiler (from Intellij IDEA).
+public class User {
+   private String name;
+   private double dailyCalorieGoal;
+   private int dailyWaterGoal;
+   private int energyLevel;
+
+   public User(String var1, double var2, int var4, int var5) {
+      this.name = var1;
+      this.dailyCalorieGoal = var2;
+      this.dailyWaterGoal = var4;
+      this.energyLevel = var5;
+   }
+
+   public String getName() {
+      return this.name;
+   }
+
+   public double getDailyCalorieGoal() {
+      return this.dailyCalorieGoal;
+   }
+
+   public int getDailyWaterGoal() {
+      return this.dailyWaterGoal;
+   }
+
+   public int getEnergyLevel() {
+      return this.energyLevel;
+   }
+
+   public String getUserSummary() {
+      return "User: " + this.name + "\nDaily Calorie Goal: " + this.dailyCalorieGoal + "\nDaily Water Goal: " + this.dailyWaterGoal + " oz\nEnergy Level: " + this.energyLevel + "/10";
+   }
+}
